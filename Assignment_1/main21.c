@@ -7,7 +7,7 @@ int main() {
 	for (int row = 0; row < base ; row++) {
 		for (int column = 0; column < base ; column++) {
 			if (column == left_astric || column == right_astric) {
-				printf("* ");
+				printf("*");
 			} else {
 				printf(" ");
 			}
