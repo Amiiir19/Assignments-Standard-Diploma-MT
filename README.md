@@ -8,9 +8,10 @@ This repository is dedicated to my studies and projects related to Embedded Soft
 1. [Introduction to Embedded Systems](#introduction-to-embedded-systems)
 2. [Assignment 1](#Assignment_1)
 3. [Assignment 2](#Assignment_2)
-4. [Projects](#projects)
-5. [Folder Structure](#folder-structure)
-6. [Getting Started](#getting-started)
+4. [Assignment 3](#Assignment_3)
+5. [Projects](#projects)
+6. [Folder Structure](#folder-structure)
+7. [Getting Started](#getting-started)
 
 
 ## Introduction to Embedded Systems
@@ -23,6 +24,9 @@ Computer Architecture - Intro To Embedded Systems Fundementals
 
 ## Assignment 2
 ### [Assignment 2:  [Assignment_2](Assignment_2/)
+
+## Assignment 3
+### [Assignment 3:  [Assignment_3](Assignment_3/)
 
 ## Projects
 
