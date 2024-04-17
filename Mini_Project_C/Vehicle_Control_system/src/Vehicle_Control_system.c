@@ -8,6 +8,8 @@
  */
 #include <stdio.h>
 #include <stdlib.h>
+#define WITH_ENGINE_TEMP_CONTROLLER 1
+
 typedef enum state {
 	OFF, ON
 } state_t;
@@ -66,7 +68,9 @@ void turnOn(car *amircar) {
 		printf("a. Turn off the engine\n");
 		printf("b. Set the traffic light color.\n");
 		printf("c. Set the room temperature (Temperature Sensor)\n");
+#if (WITH_ENGINE_TEMP_CONTROLLER)
 		printf("d. Set the engine temperature (Engine Temperature Sensor)\n");
+#endif
 		printf("--------------------------------------\n");
 		printf("Please Enter Your Option Here : ");
 		scanf(" %c", &inputON);
@@ -81,14 +85,16 @@ void turnOn(car *amircar) {
 			SetRoomTemp(amircar);
 			break;
 		case 'd':
+#if (WITH_ENGINE_TEMP_CONTROLLER)
 			SetEngineTemp(amircar);
+#endif
 			break;
 		}
 	}
 }
 void SetTrafficLightColor(car *amircar) {
 	char input;
-	printf("Please Enter the Traffic Light Color (R - O - L) : ");
+	printf("Please Enter the Traffic Light Color (R - O - G) : ");
 	scanf(" %c", &input);
 	switch (input) {
 	case 'R':
@@ -102,7 +108,9 @@ void SetTrafficLightColor(car *amircar) {
 		amircar->AC = ON;
 		amircar->engine_temp_controller = ON;
 		amircar->room_temp *= ((5 / 4) + 1);
+#if (WITH_ENGINE_TEMP_CONTROLLER)
 		amircar->engine_temp *= ((5 / 4) + 1);
+#endif
 		break;
 	}
 	displayCarState(amircar);
@@ -142,25 +150,31 @@ void displayCarState(car *amircar) {
 	} else {
 		printf(" Engine Condition   |        %s  \n", "OFF");
 	}
-		printf("--------------------|-----------------\n");
+	printf("--------------------|-----------------\n");
 	if (amircar->AC == ON) {
 		printf(" AC Condition       |        %s \n", "ON");
 	} else {
 		printf(" AC Condition       |        %s \n", "OFF");
 	}
-		printf("--------------------|-----------------\n");
-		printf(" Vehicle speed      |        %d                 \n", amircar->speed);
-		printf("--------------------|-----------------\n");
-		printf(" Room Temperature   |        %.1f \n", amircar->room_temp);
-		printf("--------------------|-----------------\n");
-		printf(" Engine Temperature |        %.1f           \n", amircar->engine_temp);
-		printf("--------------------|-----------------\n");
+	printf("--------------------|-----------------\n");
+	printf(" Vehicle speed      |        %d                 \n",
+			amircar->speed);
+	printf("--------------------|-----------------\n");
+	printf(" Room Temperature   |        %.1f \n", amircar->room_temp);
+#if (WITH_ENGINE_TEMP_CONTROLLER)
+	printf("--------------------|-----------------\n");
+	printf(" Engine Temperature |        %.1f           \n",
+			amircar->engine_temp);
+	printf("--------------------|-----------------\n");
 	if (amircar->engine_temp_controller == ON) {
-		printf(" Engine Temperature |\n Controller         |         %s \n", "ON");
+		printf(" Engine Temperature |\n Controller         |         %s \n",
+				"ON");
 	} else {
-		printf(" Engine Temperature |\n Controller         |         %s \n", "OFF");
+		printf(" Engine Temperature |\n Controller         |         %s \n",
+				"OFF");
 	}
-		printf("--------------------------------------\n");
+	printf("--------------------------------------\n");
+#endif
 
 }
 
