@@ -23,7 +23,7 @@ Computer Architecture - Intro To Embedded Systems Fundementals
 
 ### Assignment 3:  [Assignment_3](Assignments/Assignment_3/)
 
-## Projects
+## [Projects](Projects/)
 
 ### Project 1: [Mini_C_Project](Mini_Project_C)
 
