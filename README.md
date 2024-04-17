@@ -25,7 +25,7 @@ Computer Architecture - Intro To Embedded Systems Fundementals
 
 ## Projects
 
-### Project 1: [Mini_C_Project](Mini_C_Project)
+### Project 1: [Mini_C_Project](Mini_Project_C)
 
 Vehicle Control System.
 
