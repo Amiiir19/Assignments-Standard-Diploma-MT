@@ -9,7 +9,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 #define WITH_ENGINE_TEMP_CONTROLLER 1
-
 typedef enum state {
 	OFF, ON
 } state_t;
@@ -175,6 +174,5 @@ void displayCarState(car *amircar) {
 	}
 	printf("--------------------------------------\n");
 #endif
-
 }
 
