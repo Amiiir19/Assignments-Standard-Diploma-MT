@@ -17,15 +17,15 @@ This repository is dedicated to my studies and projects related to Embedded Soft
 Computer Architecture - Intro To Embedded Systems Fundementals
 
 ## Assignments
-### [Assignment 1:  [Assignment_1](Assignment_1/)
+### Assignment 1:  [Assignment_1](Assignment_1/)
 
-### [Assignment 2:  [Assignment_2](Assignment_2/)
+### Assignment 2:  [Assignment_2](Assignment_2/)
 
-### [Assignment 3:  [Assignment_3](Assignment_3/)
+### Assignment 3:  [Assignment_3](Assignment_3/)
 
 ## Projects
 
-### [Project 1: [Mini_C_Project]](projects/project1/)
+### Project 1: Mini_C_Project(projects/project1/)
 
 Vehicle Control System.
 
