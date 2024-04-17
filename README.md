@@ -6,33 +6,28 @@ This repository is dedicated to my studies and projects related to Embedded Soft
 ## Table of Contents
 
 1. [Introduction to Embedded Systems](#introduction-to-embedded-systems)
-2. [Assignment 1](#Assignment_1)
-3. [Assignment 2](#Assignment_2)
-4. [Assignment 3](#Assignment_3)
-5. [Projects](#projects)
-6. [Folder Structure](#folder-structure)
-7. [Getting Started](#getting-started)
+2. [Assignments](#Assignments)
+3. [Projects](#projects)
+4. [Folder Structure](#folder-structure)
+5. [Getting Started](#getting-started)
 
 
 ## Introduction to Embedded Systems
 
 Computer Architecture - Intro To Embedded Systems Fundementals
 
-## Assignment 1
-### [Assignment 1:  [Assignment_1](Assignment_1/)
+## Assignments
+### Assignment 1:  [Assignment_1](Assignment_1/)
 
+### Assignment 2:  [Assignment_2](Assignment_2/)
 
-## Assignment 2
-### [Assignment 2:  [Assignment_2](Assignment_2/)
-
-## Assignment 3
-### [Assignment 3:  [Assignment_3](Assignment_3/)
+### Assignment 3:  [Assignment_3](Assignment_3/)
 
 ## Projects
 
-### [Project 1: [Project Name]](projects/project1/)
+### Project 1: [Mini_C_Project](Mini_Project_C)
 
-Brief description of Project 1.
+Vehicle Control System.
 
 ### [Project 2: [Project Name]](projects/project2/)
 
