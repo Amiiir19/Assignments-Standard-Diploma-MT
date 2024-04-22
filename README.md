@@ -17,17 +17,17 @@ This repository is dedicated to my studies and projects related to Embedded Soft
 Computer Architecture - Intro To Embedded Systems Fundementals
 
 ## [Assignments](Assignments/)
-### Assignment 1:  [Assignment_1](Assignments/Assignment_1/)
+### Assignment 1 :  [Assignment_1](Assignments/Assignment_1/)
 
-### Assignment 2:  [Assignment_2](Assignments/Assignment_2/)
+### Assignment 2 :  [Assignment_2](Assignments/Assignment_2/)
 
-### Assignment 3:  [Assignment_3](Assignments/Assignment_3/)
+### Assignment 3 :  [Assignment_3](Assignments/Assignment_3/)
 
-### Assignment 4:  [Assignment_4](Assignments/Assignment_4/)
+### Assignment 4 :  [Assignment_4](Assignments/Assignment_4/)
 
-### Assignment 5:  [Assignment_5](Assignments/Assignment_5/)
+### Assignment 5 :  [Assignment_5](Assignments/Assignment_5/)
 
-### Linked List Assignment:  [Linked List Assignment](Assignments/Linked_List_Assignment/)
+### Linked List Assignment :  [Linked List Assignment](Assignments/Linked_List_Assignment/)
 
 ## [Projects](Projects/)
 
