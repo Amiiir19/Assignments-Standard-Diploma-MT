@@ -25,6 +25,10 @@ Computer Architecture - Intro To Embedded Systems Fundementals
 
 ### Assignment 4:  [Assignment_4](Assignments/Assignment_4/)
 
+### Assignment 5:  [Assignment_5](Assignments/Assignment_5/)
+
+### Linked List Assignment:  [Linked List Assignment](Assignments/Linked_List_Assignment/)
+
 ## [Projects](Projects/)
 
 ### Project 1: [Mini_C_Project](Mini_Project_C)
